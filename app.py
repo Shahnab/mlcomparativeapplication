@@ -16,6 +16,7 @@ import io
 ## Page expands to full width
 st.set_page_config(page_title='The Machine Learning Algorithm Comparison App',
     layout='wide')
+st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
 #---------------------------------#
 # Model building
 def build_model(df):
