@@ -157,7 +157,6 @@ if uploaded_file is not None:
 else:
     st.info('Awaiting for CSV file to be uploaded.')
     if st.button('Press to use Example Dataset'):
-        Diabetes dataset
         diabetes = load_diabetes()
         X = pd.DataFrame(diabetes.data, columns=diabetes.feature_names)
         Y = pd.Series(diabetes.target, name='response')
