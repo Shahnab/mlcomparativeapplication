@@ -165,4 +165,5 @@ else:
 
         st.markdown('The Diabetes dataset is used as the example.')
         st.write(df.head(5))
+        build_model(df)
     
